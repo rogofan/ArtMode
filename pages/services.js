@@ -1,12 +1,7 @@
 import React from "react";
-
+import ServicesComp from "../components/PagesComponents/Servicespage";
 const Services = () => {
-  //tohle je home page první stránka
-  return (
-    <div>
-      <h1>Sluzby Zlatnictví ArtMode Sluzby</h1>
-    </div>
-  );
+  return <ServicesComp />;
 };
 
 export default Services;

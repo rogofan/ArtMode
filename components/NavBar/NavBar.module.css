@@ -23,6 +23,7 @@
 .NavBar nav ul {
   display: flex;
   list-style: none;
+  height: 80px;
   margin: 0;
   padding: 0;
 }
