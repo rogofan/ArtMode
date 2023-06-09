@@ -1,6 +1,7 @@
 import style from "./Homepage.module.css";
 import { Fragment } from "react";
 import Card from "../ui/Card";
+import img from "../../public/logoArtmode.webp";
 // import videoUvod from "../../public/testVideo.mp4";
 function Homepage() {
   return (

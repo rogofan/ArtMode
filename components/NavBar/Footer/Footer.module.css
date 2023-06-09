@@ -1,0 +1,53 @@
+.footer {
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.logo {
+  height: 8rem;
+  width: 10rem;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.shopAddress {
+  /* flex: 1; */
+  flex: 0 0 clamp(100px, 33%, 200px);
+  margin: 0 10px;
+  color: honeydew;
+}
+
+.footerBottom {
+  text-align: center;
+  color: #888;
+}
+
+/* Media query for screens narrower than 600px */
+@media (max-width: 768px) {
+  .footerRow {
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .shopAddress {
+    flex: none;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px 0;
+  }
+}
