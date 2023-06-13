@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.image {
+  flex: 1 1;
+  height: 400px;
+  background-color: blue;
+}
+
+.content {
+  flex: 1 2;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+    margin-top: -5px;
+  }
+}
