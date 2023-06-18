@@ -18,7 +18,7 @@ function Homepage() {
           <RowContainer imageFirst={true}>
             <Image src={Logo} alt="Logo" className={style.img} />
             <div>
-              <h2>Nadpis lorem ipsum1</h2>
+              <h2>Nadpis lorem ipsum 1</h2>
               <p>
                 Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac,
                 erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
@@ -40,7 +40,7 @@ function Homepage() {
           <RowContainer imageFirst={false}>
             <Image src={Logo} alt="Logo" className={style.img} />
             <div>
-              <h2>Nadpis lorem ipsum2</h2>
+              <h2>Nadpis lorem ipsum 2</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
