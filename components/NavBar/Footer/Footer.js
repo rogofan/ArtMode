@@ -8,7 +8,7 @@ function Footer() {
   const GoMenu = () => {
     router.push("/");
   };
-
+  const phoneNumber = "+420 601 381 558";
   return (
     <footer className={style.footer}>
       <div className={style.footerRow}>
@@ -32,7 +32,7 @@ function Footer() {
                 Ulice číslo, HK
               </a>{" "}
               <br />
-              +420 XXX XXX XXX <br />
+              <a href={`tel:${phoneNumber}`}>{phoneNumber}</a> <br />
               email@gegaj.corp
             </p>
           </div>
@@ -42,7 +42,7 @@ function Footer() {
           <div>
             <p>
               Ulice číslo, HK <br />
-              +420 XXX XXX XXX <br />
+              <a href={`tel:${phoneNumber}`}>{phoneNumber}</a> <br />
               email@gegaj.corp
             </p>
           </div>

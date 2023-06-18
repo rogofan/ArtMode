@@ -16,6 +16,14 @@
   background-color: white;
 }
 
+.imageFirst {
+  flex-direction: row;
+}
+
+.contentFirst {
+  flex-direction: row-reverse;
+}
+
 @media (max-width: 768px) {
   .card {
     flex-direction: column;
@@ -28,5 +36,6 @@
 
   .content {
     margin-top: -5px;
+    height: auto;
   }
 }
