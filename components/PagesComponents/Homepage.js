@@ -40,7 +40,7 @@ function Homepage() {
           <RowContainer imageFirst={false}>
             <Image src={Logo} alt="Logo" className={style.img} />
             <div>
-              <h2>Nadpis lorem ipsum 2</h2>
+              <h2>Nadpis lorem ipsium 2</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut
                 enim ad minim venia no a hhisk xskuw kaktus nostrud exercitation
