@@ -43,10 +43,10 @@ function Homepage() {
               <h2>Nadpis lorem ipsum 2</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Nunc tincidunt ante
-                vitae massa. Duis pulvinar. Lorem ipsum dolor sit amet,
-                consectetuer adipiscing elit. Phasellus rhoncus. Mauris
+                enim ad minim venia no a hhisk xskuw kaktus nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Nunc
+                tincidunt ante vitae massa. Duis pulvinar. Lorem ipsum dolor sit
+                amet, consectetuer adipiscing elit. Phasellus rhoncus. Mauris
                 suscipit, ligula sit amet pharetra semper, nibh ante cursus
                 purus, vel sagittis velit mauris vel metus. Proin pede metus,
                 vulputate nec, fermentum fringilla, vehicula vitae, justo. Ut
