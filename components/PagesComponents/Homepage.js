@@ -9,10 +9,10 @@ import Logo from "../../public/logoArtmode.webp";
 function Homepage() {
   return (
     <Fragment>
-      <video autoPlay muted loop className={style.video}>
+      <video id="topOfThePage" autoPlay muted loop className={style.video}>
         <source src={videoA} type="video/mp4" />
       </video>
-      <div className={style.topSpace}>
+      <div id="targetElement" className={style.topSpace}>
         <Card>
           <h1 className={style.alignZero}> Zlatnictví ArtMode</h1>
           <RowContainer imageFirst={true}>
