@@ -10,12 +10,6 @@ const NavLinks = (props) => {
 
   const performScroll = (elementId) => {
     // const target = document.getElementById(elementId).offsetTop;
-    // if (target) {
-    //   window.scroll({
-    //     top: target - 80, // subtract your header's height here
-    //     behavior: "smooth",
-    //   });
-    // }
 
     scroller.scrollTo(elementId, {
       duration: 800, // adjust the time of the scroll (ms)
