@@ -14,7 +14,7 @@ const NavLinks = (props) => {
     scroller.scrollTo(elementId, {
       duration: 800, // adjust the time of the scroll (ms)
       delay: 0,
-      smooth: "easeInOutQuart",
+      smooth: "easeOutQuad",
       offset: -80, // subtract your header's height here
     });
   };

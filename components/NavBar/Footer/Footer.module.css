@@ -24,13 +24,6 @@
   cursor: pointer;
 }
 
-.shopAddress {
-  /* flex: 1; */
-  flex: 0 0 clamp(100px, 33%, 200px);
-  margin: 0 10px;
-  color: honeydew;
-}
-
 .footerBottom {
   text-align: center;
   color: #888;
@@ -42,12 +35,5 @@
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
-  }
-
-  .shopAddress {
-    flex: none;
-    width: 100%;
-    max-width: 200px;
-    margin: 10px 0;
   }
 }

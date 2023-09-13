@@ -1,0 +1,50 @@
+.shopName {
+  font-size: 1.5rem;
+  color: honeydew;
+  font-weight: bold;
+}
+
+.contactInfo {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.address,
+.phone,
+.email {
+  margin: 5px 0;
+  color: honeydew;
+}
+
+.address a,
+.phone a,
+.email a {
+  text-decoration: none;
+  color: honeydew;
+  transition: text-decoration 0.3s ease;
+}
+
+.address a:hover,
+.phone a:hover,
+.email a:hover {
+  text-decoration: underline;
+}
+
+.shopAddress {
+  flex: 0 0 clamp(100px, 33%, 200px);
+  margin: 0 10px;
+  color: honeydew;
+  border: 2px solid honeydew;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Media query for screens narrower than 600px */
+@media (max-width: 768px) {
+  .shopAddress {
+    flex: none;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px 0;
+  }
+}

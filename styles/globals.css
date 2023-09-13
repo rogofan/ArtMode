@@ -8,10 +8,6 @@
   border: 1px solid red;
 } */
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: "Open Sans", "Lato", sans-serif;
   margin: 0;
