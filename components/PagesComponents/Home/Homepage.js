@@ -1,10 +1,10 @@
 import style from "./Homepage.module.css";
 import { Fragment } from "react";
-import Card from "../ui/Card/Card";
-import videoA from "../../Assets/testVideo.mp4";
-import RowContainer from "../ui/RowContent/CardTextImg";
+import Card from "../../ui/Card/Card";
+import videoA from "../../../Assets/testVideo.mp4";
+import RowContainer from "../../ui/RowContent/CardTextImg";
 import Image from "next/image";
-import Logo from "../../public/logoArtmode.webp";
+import Logo from "../../../public/logoArtmode.webp";
 
 function Homepage() {
   return (
