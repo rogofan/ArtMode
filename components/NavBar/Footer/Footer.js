@@ -22,7 +22,7 @@ function Footer() {
         </div>
         //Obchod Senior
         <FooterCard
-          name={"Shop Daddy Gegaj"}
+          name={"Obchod Daddy "}
           address={"Masarykáč u eggsitu"}
           mapLink={
             "https://www.google.com/maps/place/Zlatnictv%C3%AD+Art+Mode/@50.2109306,15.8262879,18z/data=!4m6!3m5!1s0x470c2b2fb7a319ab:0x406f276ae04c0965!8m2!3d50.2113342!4d15.8257244!16s%2Fg%2F1td_fz8m?entry=ttu"
@@ -32,7 +32,7 @@ function Footer() {
         />
         //Obchod Jr
         <FooterCard
-          name={"Shop Jr. Gegaj"}
+          name={"Obchod Jr. Gegaj"}
           mapLink={
             "https://www.google.com/maps/place/Zlatnictv%C3%AD+Art+Mode/@50.2109306,15.8262879,18z/data=!4m6!3m5!1s0x470c2b2fb7a319ab:0x406f276ae04c0965!8m2!3d50.2113342!4d15.8257244!16s%2Fg%2F1td_fz8m?entry=ttu"
           }

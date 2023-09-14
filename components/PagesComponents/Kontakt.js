@@ -1,6 +1,6 @@
 import style from "./Kontakt.module.css";
 import { Fragment } from "react";
-import Card from "../ui/Card";
+import Card from "../ui/Card/Card";
 
 function Services() {
   return (

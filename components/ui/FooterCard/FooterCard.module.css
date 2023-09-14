@@ -32,6 +32,10 @@
 
 .shopAddress {
   flex: 0 0 clamp(100px, 33%, 200px);
+  min-height: 200px;
+  max-height: 250px;
+  overflow-y: auto;
+  height: 100%;
   margin: 0 10px;
   color: honeydew;
   border: 2px solid honeydew;
