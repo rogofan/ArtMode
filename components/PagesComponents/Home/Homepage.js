@@ -5,8 +5,11 @@ import videoA from "../../../Assets/testVideo.mp4";
 import RowContainer from "../../ui/RowContent/CardTextImg";
 import Image from "next/image";
 import Logo from "../../../public/logoArtmode.webp";
+import TestimonialSlider from "./Slider";
 
 function Homepage() {
+  console.log(Logo);
+
   return (
     <Fragment>
       <video id="topOfThePage" autoPlay muted loop className={style.video}>
@@ -61,6 +64,9 @@ function Homepage() {
             </div>
           </RowContainer>
           <br />
+          <div className={style.slider}>
+            <TestimonialSlider />
+          </div>
         </Card>
       </div>
     </Fragment>
