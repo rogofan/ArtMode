@@ -13,7 +13,7 @@
   margin: 0 -10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .slick-next,
   .slick-prev {
     display: none !important;

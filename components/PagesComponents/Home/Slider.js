@@ -5,19 +5,18 @@ import styles from "./TestimonialSlider.module.css";
 const settings = {
   dots: true,
   infinite: true,
-  speed: 500,
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true, // Enable autoplay
-  speed: 1500, //smooth behavior of autoplay
-  autoplaySpeed: 3000, //time for autoplay
+  speed: 2000, //smooth behavior of autoplay
+  autoplaySpeed: 5000, //time for autoplay
   responsive: [
     {
       breakpoint: 600,
       settings: {
         autoplay: true, // Enable autoplay
-        speed: 1500, //smooth behavior of autoplay
-        autoplaySpeed: 3000, //time for autoplay
+        speed: 2000, //smooth behavior of autoplay
+        autoplaySpeed: 5000, //time for autoplay
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
@@ -28,8 +27,8 @@ const settings = {
       breakpoint: 1024,
       settings: {
         autoplay: true, // Enable autoplay
-        speed: 1500, //smooth behavior of autoplay
-        autoplaySpeed: 3000, //time for autoplay
+        speed: 2000, //smooth behavior of autoplay
+        autoplaySpeed: 5000, //time for autoplay
         slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,

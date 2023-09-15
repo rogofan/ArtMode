@@ -64,6 +64,9 @@ function Homepage() {
             </div>
           </RowContainer>
           <br />
+          <h2 className={style.customerText}>
+            Co o nás říkají naši zákazníci?
+          </h2>
           <div className={style.slider}>
             <TestimonialSlider />
           </div>
