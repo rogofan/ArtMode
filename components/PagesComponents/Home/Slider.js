@@ -13,12 +13,24 @@ const settings = {
   autoplaySpeed: 3000, //time for autoplay
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 600,
       settings: {
         autoplay: true, // Enable autoplay
         speed: 1500, //smooth behavior of autoplay
         autoplaySpeed: 3000, //time for autoplay
         slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        autoplay: true, // Enable autoplay
+        speed: 1500, //smooth behavior of autoplay
+        autoplaySpeed: 3000, //time for autoplay
+        slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
         dots: true,

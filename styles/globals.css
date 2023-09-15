@@ -6,6 +6,20 @@
   box-sizing: border-box;
 }
 
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+@media (max-width: 768px) {
+  .slick-next,
+  .slick-prev {
+    display: none !important;
+  }
+}
+
 /* * {
   border: 1px solid red;
 } */
