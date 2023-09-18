@@ -1,7 +1,7 @@
 import style from "./Homepage.module.css";
 import { Fragment } from "react";
 import Card from "../../ui/Card/Card";
-import videoA from "../../../Assets/testVideo.mp4";
+import videoA from "../../../Assets/videoProdPokus.mp4";
 import RowContainer from "../../ui/RowContent/CardTextImg";
 import Image from "next/image";
 import Logo from "../../../public/logoArtmode.webp";
@@ -17,7 +17,9 @@ function Homepage() {
       </video>
       <div id="targetElement" className={style.topSpace}>
         <Card>
+          <br />
           <h1 className={style.alignZero}> Zlatnictví ArtMode</h1>
+          <br />
           <RowContainer imageFirst={true}>
             <Image src={Logo} alt="Logo" className={style.img} />
             <div>
@@ -27,9 +29,9 @@ function Homepage() {
                 erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Duis viverra diam non justo. Etiam
-                dui sem, fermentum vitae, sagittis id, malesuada in, quam. Etiam
+                quae ab illo inventore veritis et quasi architecto beatae vitae
+                dicta sunt explicabo. Duis viverra diam non justo. Etiam dui
+                sem, fermentum vitae, sagittis id, malesuada in, quam. Etiam
                 posuere lacus quis dolor. Praesent id justo in neque elementum
                 ultrices. Nullam dapibus fermentum ipsum. In dapibus augue non
                 sapien. Duis viverra diam non justo. Ut enim ad minim veniam,
@@ -39,8 +41,8 @@ function Homepage() {
               </p>
             </div>
           </RowContainer>
-          <br />
-          <RowContainer imageFirst={false}>
+          <br className={style.hideOnMobile} />
+          <RowContainer imageFirst={true}>
             <Image src={Logo} alt="Logo" className={style.img} />
             <div>
               <h2>Nadpis lorem ipsium 2</h2>

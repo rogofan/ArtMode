@@ -32,3 +32,9 @@
 .customerText {
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .hideOnMobile {
+    display: none;
+  }
+}

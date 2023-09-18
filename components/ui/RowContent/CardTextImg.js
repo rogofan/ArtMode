@@ -7,7 +7,6 @@ function RowContentCard(props) {
   const content = props.children.filter((child) => child.type !== Image);
 
   return (
-    // <div className={style.card}>
     <div
       className={`${style.card} ${
         imageFirst ? style.imageFirst : style.contentFirst
