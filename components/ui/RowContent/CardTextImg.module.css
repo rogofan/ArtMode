@@ -1,19 +1,19 @@
 .card {
   display: flex;
-  flex-wrap: wrap;
+  align-items: stretch; /* This ensures the children (image and content) have the same height */
   width: 100%;
-  justify-content: center;
-  align-items: center;
 }
 
 .image {
-  flex: 0.3;
+  flex: 0 0 30%; /* This means don't grow, don't shrink, and have a base size of 30% of the container */
   margin-right: 10px;
 }
 
 .content {
-  flex: 0.7;
-  background-color: white;
+  flex: 1; /* This will take the remaining space, which is 70% */
+  background-color: #9c9c9c;
+  border-top-right-radius: 5px; /* adjust as needed */
+  border-bottom-right-radius: 5px;
 }
 
 .imageFirst {
@@ -22,6 +22,17 @@
 
 .contentFirst {
   flex-direction: row-reverse;
+}
+
+/* Tablet resolution */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .image {
+    display: none; /* Hide the image on tablets */
+  }
+
+  .content {
+    border-radius: 5px;
+  }
 }
 
 @media (max-width: 768px) {
