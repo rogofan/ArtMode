@@ -22,7 +22,7 @@ function Homepage() {
           <br />
           <RowContainer imageFirst={true}>
             <Image src={Logo} alt="Logo" className={style.img} />
-            <div>
+            <div className={style.textContent}>
               <h2>Nadpis lorem ipsum 1</h2>
               <p>
                 Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac,
@@ -44,7 +44,7 @@ function Homepage() {
           <br className={style.hideOnMobile} />
           <RowContainer imageFirst={true}>
             <Image src={Logo} alt="Logo" className={style.img} />
-            <div>
+            <div className={style.textContent}>
               <h2>Nadpis lorem ipsium 2</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut
@@ -66,9 +66,9 @@ function Homepage() {
             </div>
           </RowContainer>
           <br />
-          <h2 className={style.customerText}>
+          <h3 className={style.customerText}>
             Co o nás říkají naši zákazníci?
-          </h2>
+          </h3>
           <div className={style.slider}>
             <TestimonialSlider />
           </div>

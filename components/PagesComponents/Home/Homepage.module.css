@@ -33,6 +33,11 @@
   text-align: center;
 }
 
+.textContent {
+  padding: 10px;
+  text-align: justify;
+}
+
 @media (max-width: 768px) {
   .hideOnMobile {
     display: none;
