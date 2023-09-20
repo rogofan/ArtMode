@@ -1,0 +1,84 @@
+.shopContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 20px; */
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  /* align-items: stretch; This ensures the children (image and content) have the same height */
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.rowButton {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 20px;
+  padding-top: 25px;
+}
+
+.shopInfo {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.shopInfo p {
+  margin: 0;
+}
+
+.image {
+  flex: 1;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+.map {
+  padding: 0;
+  width: calc(100% + 40px);
+  padding-right: 5px;
+  margin-left: -10px;
+  margin-bottom: -2px;
+}
+
+.callButton,
+.navButton {
+  padding: 10px 15px;
+  border: none;
+  background-color: #9c9c9c;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.callButton:hover,
+.navButton:hover {
+  background-color: #858585;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .rowButton {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .shopContainer {
+    flex-direction: column;
+  }
+
+  .rowButton {
+    flex-direction: column;
+  }
+
+  .shopInfo {
+    text-align: center;
+  }
+}

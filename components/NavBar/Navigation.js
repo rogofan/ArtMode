@@ -12,7 +12,7 @@ function Navigation() {
   return (
     <nav className={style.Navigation}>
       <Image src={Logo} alt="Logo" className={style.Logo} onClick={GoMenu} />
-      <NavLinks />;
+      <NavLinks />
     </nav>
   );
 }
