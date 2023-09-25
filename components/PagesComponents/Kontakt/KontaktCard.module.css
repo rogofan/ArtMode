@@ -77,10 +77,6 @@
   .rowButton > a {
     margin-bottom: 10px; /* Adds space below each button */
   }
-
-  .rowButton > a:last-child {
-    margin-bottom: 0; /* Removes the margin from the last button to prevent extra space */
-  }
 }
 
 @media (max-width: 768px) {
@@ -89,15 +85,11 @@
   }
 
   .rowButton {
-    flex-direction: column;
+    justify-content: space-evenly;
   }
 
   .rowButton > a {
     margin-bottom: 10px; /* Adds space below each button */
-  }
-
-  .rowButton > a:last-child {
-    margin-bottom: 0; /* Removes the margin from the last button to prevent extra space */
   }
 
   .shopInfo {

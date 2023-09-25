@@ -16,6 +16,8 @@ function ShopCard({
   email,
   ic,
   dic,
+  adresa,
+  mapLinkButton,
 }) {
   const iconColor = "#858585";
   return (
@@ -27,9 +29,9 @@ function ShopCard({
           <p>{oteviraciDoba}</p>
           <p>{weekend}</p>
           <p>Neděle: zavřeno</p>
-          <FaMapMarkerAlt color={iconColor} />
-          <p>U ergsitu 802, 500 04, Hradec Králové</p>
-          <AiOutlineMail color={iconColor} />
+          <FaMapMarkerAlt color={iconColor} id="jop" />
+          <p>{adresa}</p>
+          <AiOutlineMail color={iconColor} id="jop" />
           <p>{email}</p>
           <AiOutlinePhone color={iconColor} />
           <p>{phone}</p>
@@ -41,7 +43,7 @@ function ShopCard({
               Zavolejte nám
             </a>
             <a
-              href={mapLink}
+              href={mapLinkButton}
               rel="noopener noreferrer"
               title={"Navigovat k nám"}
               target="_blank"
