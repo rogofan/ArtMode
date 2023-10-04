@@ -24,20 +24,22 @@ function ShopCard({
     <div className={style.shopContainer}>
       <div className={style.row}>
         <div className={style.shopInfo}>
-          <h1>{shopName}</h1>
-          <AiOutlineClockCircle color={iconColor} />
-          <p>{oteviraciDoba}</p>
-          <p>{weekend}</p>
-          <p>Neděle: zavřeno</p>
-          <FaMapMarkerAlt color={iconColor} id="jop" />
-          <p>{adresa}</p>
-          <AiOutlineMail color={iconColor} id="jop" />
-          <p>{email}</p>
-          <AiOutlinePhone color={iconColor} />
-          <p>{phone}</p>
-          <br />
-          <p>{"IČ: " + ic}</p>
-          <p>{"DIČ: " + dic}</p>
+          <div className={style.leftText}>
+            <h1>{shopName}</h1>
+            <AiOutlineClockCircle color={iconColor} />
+            <p>{oteviraciDoba}</p>
+            <p>{weekend}</p>
+            <p>Neděle: zavřeno</p>
+            <FaMapMarkerAlt color={iconColor} id="jop" />
+            <p>{adresa}</p>
+            <AiOutlineMail color={iconColor} id="jop" />
+            <p>{email}</p>
+            <AiOutlinePhone color={iconColor} />
+            <p>{phone}</p>
+            <br />
+            <p>{"IČ: " + ic}</p>
+            <p>{"DIČ: " + dic}</p>
+          </div>
           <div className={style.rowButton}>
             <a href={`tel:${phone}`} className={style.callButton}>
               Zavolejte nám
@@ -61,22 +63,10 @@ function ShopCard({
           </div>
         </div>
         <div className={style.image}>
-          <img
-            src={image}
-            alt="Description of Image"
-            className={style.imageContent}
-          />
+          <img src={image} alt="Description of Image" />
         </div>
       </div>
-      <div className={style.map}>
-        <iframe
-          src={mapLink}
-          className={style.map}
-          height="450"
-          style={{ border: "0" }}
-          loading="lazy"
-        />
-      </div>
+      <iframe src={mapLink} className={style.map} height="450" loading="lazy" />
     </div>
   );
 }
